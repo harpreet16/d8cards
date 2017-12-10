@@ -1,0 +1,19 @@
+<?php
+/**
+ * Theme hook
+ */
+function customform_theme($existing, $type, $theme, $path) {
+  return array('my_block' =>
+    array(
+      'variables' => array(
+        'title' => 'Default title', 
+        'description' => 'Default description'
+      ),
+    )
+  );
+}
+
+function customform_uninstall(){
+	\Drupal::service('config.factory')->getEditable('customform.settings')->delete();
+}
+?>

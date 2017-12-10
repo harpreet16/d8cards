@@ -1,0 +1,14 @@
+uuid: 5ebd554c-3947-49a0-a719-5246bea7ea93
+name: D8cards
+mail: harpreet.kaur@innoraft.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

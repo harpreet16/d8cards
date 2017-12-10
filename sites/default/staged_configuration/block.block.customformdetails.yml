@@ -1,0 +1,26 @@
+uuid: bb43edaa-4f5a-4442-93f4-fb08c9ef907e
+langcode: en
+status: true
+dependencies:
+  module:
+    - customform
+    - system
+  theme:
+    - bartik
+id: customformdetails
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: custom_form
+settings:
+  id: custom_form
+  label: 'Custom form details'
+  provider: customform
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /mymodule/config
+    negate: false
+    context_mapping: {  }
